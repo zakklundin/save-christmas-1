@@ -1,4 +1,4 @@
-# Save Christmas part 1. (a.k.a. introduktion till algoritmer)
+# Save Christmas part 1. (a.k.a. introduktion till algoritmer) :santa:
 
 Lystring! Vi har fått ett uppdrag av ingen mindre än jultomten själv. Han som alla andra behöver *digitalisera sin verksamhet*. Vi kommer under följande veckor ta oss an detta och, om allt går väl, **tillsammans rädda julen!**
 
@@ -12,7 +12,7 @@ Innan du fortsätter:
 - Skapa en fil `loop-warmups.js`
 - I filen, skapa minst en `while`-loop och minst en `for`-loop. Se till att du förstår hur de fungerar innan du fortsätter. Diskutera eventuella frågetecken med din grupp!
 
-## Steg 1. Lagerhantering av julklappar.
+## Steg 1. Lagerhantering av julklappar. :gift:
 
 Jultomten har ett enormt lager av befintliga julklappar. Han saknar dock ett effektivt sätt att söka upp ifall han har en viss julklapp i sitt lager och i så fall var den befinner sig.
 
