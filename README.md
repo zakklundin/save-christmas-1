@@ -22,7 +22,7 @@ Jultomten har ett enormt lager av befintliga julklappar. Han saknar dock ett eff
 
 Gör färdigt funktionen så att den fungerar enligt testerna i samma fil.
 
-### Ditt andra uppdrag - Var finns julklappen?
+### Ditt andra uppdrag - Var finns julklappen? :mag:
 
 Öppna filen `indexOf.js`. Du ser där en annan array av julklappar, likt uppgiften nyss. Du ser att funktionen `indexOf` är tom.
 
@@ -33,7 +33,7 @@ Innan du fortsätter:
 - Vad är pseudokod?
 - Skulle man nu kunna skriva om funktionen `includes` så att den använder sig av `indexOf`? Hur skulle det kunna se ut? Fundera!
 
-## Steg 2. Statistik
+## Steg 2. Statistik :chart_with_upwards_trend:
 
 **OBS: Vi har fått önskemål från Jultomtens IT-nisse att endast använda for-loopar i uppgifterna nedan. Jag vet inte varför, han bara sa så!**
 
@@ -77,7 +77,7 @@ I `map.js` är funktionen `map` skriven i pseudokod.
 1. Gör färdigt implementationen så att testerna i filen fungerar.
 2. Gör minst ett eget test under de andra två
 
-## Steg 4. Att gallra bort stygga barn (filter)
+## Steg 4. Att gallra bort stygga barn (filter) :frowning:
 
 Tomten behöver som sagt ett sätt att gallra bort barn beroende på hur stygga de varit. Det vore olyckligt om ett styggt barn fick en julklapp medan ett snällt barn blev utan. Man kan kalla processen för att *filtrera*.
 
