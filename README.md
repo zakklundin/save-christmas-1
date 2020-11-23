@@ -22,6 +22,38 @@ Jultomten har ett enormt lager av befintliga julklappar. Han saknar dock ett eff
 
 Gör färdigt funktionen så att den fungerar enligt testerna i samma fil.
 
+<details>
+<summary>Ledtråd 1</summary>
+
+````javascript
+function includes(arr, item) {
+    for (let i = 0; i < arr.length; i++) {
+        // if arr[i] is equal to item, return true
+    }
+
+    // no match was found, return false
+}
+````
+</details>
+
+
+<details>
+<summary>Ledtråd 2 (lösning)</summary>
+
+````javascript
+function includes(arr, item) {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === item) {
+            return true
+        }
+    }
+
+    return false
+}
+````
+</details>
+
+
 ### Ditt andra uppdrag - Var finns julklappen? :mag:
 
 Öppna filen `indexOf.js`. Du ser där en annan array av julklappar, likt uppgiften nyss. Du ser att funktionen `indexOf` är tom.
@@ -41,7 +73,12 @@ Jultomten är intresserad av statistik. Han är t.ex. intresserad av att utifrå
 
 Öppna filen `statistics.js`.
 
-Implementera tre algoritmer som räknar ut följande: högsta värde i en array, lägsta värde i en array, medelvärdet av alla tal i en array. Kalla funktionerna `max`, `min` och `mean` (medelvärde).
+Implementera tre algoritmer som räknar ut följande:
+* högsta värde i en array
+* lägsta värde i en array
+* medelvärdet av alla tal i en array.
+ 
+Kalla funktionerna `max`, `min` och `mean` (medelvärde).
 
 Skapa lite testdata och säkerställ att de fungerar. Till exempel så här
 
@@ -76,6 +113,24 @@ I `map.js` är funktionen `map` skriven i pseudokod.
 
 1. Gör färdigt implementationen så att testerna i filen fungerar.
 2. Gör minst ett eget test under de andra två
+
+<details>
+<summary>Ledtråd (lösning)</summary>
+
+````javascript
+
+function map(arr, func) {
+    const newArray = new Array(arr.length)
+    
+    for (let i = 0; i < arr.length; i++) {
+        newArray[i] = func(arr[i])
+    }
+
+    return newArray
+}
+
+````
+</details>
 
 ## Steg 4. Att gallra bort stygga barn (filter) :frowning:
 
