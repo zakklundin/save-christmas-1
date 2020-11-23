@@ -2,7 +2,6 @@
 function includes(arr, item) {
     // for all i from 0 to arr.length - 1
     //      if arr[i] is equal to item, return true
-    //      increase i
 
     // no match was found, return false
 }
