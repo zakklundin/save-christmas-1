@@ -96,7 +96,7 @@ const filteredNumbers = filter(numbers, x => x < 10)            // Filtrerar bor
 console.log(filteredNumbers)                                    // [4, 3, 5, 8, 2, 9, 1, 2]
 ````
 
-# Fördjupning!
+# Fördjupning! :star:
 
 Grattis! Vi är verkligen på rätt kurs för att kunna hjälpa jultomten.
 
