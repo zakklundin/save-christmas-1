@@ -1,5 +1,14 @@
 function filter(arr, func) {
-    let newArray = arr.filter(func)
+    let newArray = []
+
+    for (let i = 0; i < arr.length; i++) {
+        if (func(arr[i]) === true){
+            newArray.push(arr[i])
+        }
+    }
+
+    //nedan funkar också
+    //newArray = arr.filter(func)
     return newArray
 }
 
