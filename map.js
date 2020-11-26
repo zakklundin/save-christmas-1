@@ -1,11 +1,14 @@
-
 function map(arr, func) {
     // skapa en ny tom array av samma längd som arr
     // för varje element i arr
     //      newArray[j] = func(arr[j])
     // returnera den nya arrayen
+
     let newArray = []
-    newArray = arr.map(func)
+    for (let i = 0; i < arr.length; i++) {
+        newArray[i] = func(arr[i])
+    }
+    //newArray = arr.map(func) funkar annars också!
     return newArray
 }
 

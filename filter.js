@@ -1,6 +1,6 @@
-
 function filter(arr, func) {
-
+    let newArray = arr.filter(func)
+    return newArray
 }
 
 // TEST 1
@@ -9,6 +9,8 @@ const filteredNumbers = filter(numbers, x => x < 10)
 console.log(filteredNumbers)
 
 // TEST 2 - skriv själv
-
+const stringArray = ['Hej', 'Hejsan', 'Tja', 'Tjenixan']
+const shortStringArray = filter(stringArray, x => x.length < 4)
+console.log(shortStringArray)
 
 // TEST 3 - skriv själv
