@@ -1,11 +1,12 @@
 
 function map(arr, func) {
     // skapa en ny tom array av samma längd som arr
-
     // för varje element i arr
     //      newArray[j] = func(arr[j])
-
     // returnera den nya arrayen
+    let newArray = []
+    newArray = arr.map(func)
+    return newArray
 }
 
 // Test 1
@@ -24,3 +25,7 @@ console.log(stringArray)    // ['boll', 'häst', 'flygplan']
 
 // Test 3 - GÖR ETT EGET TEST HÄR
 console.log('\nTEST 3')
+const numberStringArray = ['5', '7', '9']
+const normalNumberArray = map(numberStringArray, n => parseInt(n))
+console.log(numberStringArray)
+console.log(normalNumberArray)
